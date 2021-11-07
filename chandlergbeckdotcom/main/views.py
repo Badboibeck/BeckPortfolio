@@ -1,6 +1,16 @@
 from django.shortcuts import render
 
 
+def home(request):
+    return render(
+        request,
+        'index.html',
+        {
+            'title': 'Home',
+            'name': 'Chandler G. Beck',
+        }
+    )
+
 def about(request):
     return render(
         request,
@@ -10,7 +20,6 @@ def about(request):
             'name': 'Chandler G. Beck',
         }
     )
-
 
 def resume(request):
     return render(
