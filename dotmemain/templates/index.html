@@ -1,0 +1,95 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    {% load static %}
+
+    <div class="container">
+        <div class="card shadow bg-sec text-whiteoff mb-3">
+            <div class="row py-5">
+                <div class="col px-5 m-auto">
+                    <h5 class="text-teal">Hello!</h5>
+                    <h3>I'm <i class="text-teal">{{ name }}</i></h3>
+                    <h4 class="pt-2 pb-5">-- Junior Software Developer</h4>
+                    <p><i class="fas fa-globe-americas text-teal"></i> Dallas-Fort Worth Metroplex, Texas</p>
+                    <p><i class="far fa-paper-plane text-teal"></i> contact@ChandlerGBeck.me</p>
+                    <p><i class="fas fa-mobile-alt text-teal"></i> (972) 268-0546</p>
+                </div>
+                <div class="col m-auto">
+                    <picture>
+                        <img src="{% static 'dotmemain/chandler_military.png' %}" class="img-fluid" alt="...">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <div class="card shadow text-whiteoff bg-sec mb-3">
+            <div class="row m-3">
+                <div class="col">
+                    <h4><i class="fab fa-python text-teal"></i> Python</h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-smoke-teal text-main"
+                             role="progressbar"
+                             aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4><i class="fab fa-linux text-teal"></i> Linux</h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-smoke-teal text-main"
+                             role="progressbar"
+                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-3">
+                <div class="col">
+                    <h4><i class="fab fa-js-square text-teal"></i> JavaScript</h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-smoke-teal text-main"
+                             role="progressbar"
+                             aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4><i class="fab fa-bootstrap text-teal"></i> BootStrap</h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-smoke-teal text-main"
+                             role="progressbar"
+                             aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mx-3">
+                <p class="fst-italic text-whiteoff">## Progress bars constantly increasing as I strive to learn.</p>
+            </div>
+        </div>
+        <div class="card shadow text-whiteoff bg-sec mb-3">
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>The consummate professional, Chandler can be relied upon in every situation to provide meaningful
+                        feedback and guidance based on experience beyond his years. He's the one I want on my team in
+                        every situation. Regardless of the circumstances, he provides irreplaceable value we can count
+                        on. </p>
+                    <footer class="blockquote-footer">Lieutenant Commander Eric Wynn, <cite title="Source Title">United
+                        States Navy</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+        <div class="card shadow text-whiteoff bg-sec mb-3">
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>In an age where many workers are reactive to job inputs, Chandler is rare in that he spends
+                        his
+                        time researching and learning in order to be proactive. This helps him react quickly and
+                        correctly to mission requirements, which is a necessity in his chosen profession. In regards
+                        to
+                        operational knowledge, Chandler is my go-to guy.</p>
+                    <footer class="blockquote-footer">Captain Nathan Paddock, <cite title="Source Title">United
+                        States Air Force</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
