@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="ubuntu@3.227.194.159:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ubuntu/project" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="ubuntu@34.226.179.238:22">
         <serverdata>
           <mappings>
